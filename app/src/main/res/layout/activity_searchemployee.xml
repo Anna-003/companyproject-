@@ -1,0 +1,37 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="employee code"
+        android:textColor="@color/black"
+        android:layout_margin="10dp" />
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="text"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0493BC"
+        android:textColor="#FFFFFF"
+        android:layout_margin="20dp"
+        android:text="submit"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0493BC"
+        android:textColor="#FFFFFF"
+        android:layout_margin="20dp"
+        android:text="back to menu"/>
+
+</LinearLayout>

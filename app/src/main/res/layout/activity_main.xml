@@ -1,0 +1,42 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="username"
+    android:textColor="@color/black"
+    android:layout_margin="10dp" />
+<EditText
+    android:id="@+id/edit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:inputType="text"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="password"
+    android:textColor="@color/black"
+    android:layout_margin="10dp" />
+    <EditText
+        android:id="@+id/edit2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0493BC"
+        android:textColor="#FFFFFF"
+        android:layout_margin="20dp"
+        android:text="login"/>
+
+</LinearLayout>
